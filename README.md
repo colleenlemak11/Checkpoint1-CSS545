@@ -39,9 +39,11 @@ The UI/UX for the MVP will emphasize simplicity and ease of use, ensuring that b
 The MVP must store progress locally in a data structure such as an array of guesses. There also must be a puzzle-generator algorithm that randomly chooses each digit for the number of the day. 3rd party dependencies may be useful in the integration with social media platforms; APIs could be useful for sharing results in addition to ad networks for monetization.
 
 ## Challenges and Open Questions  
-Identify technical challenges that may come up (e.g., hardware limitations, access to data/services, performance issues, etc.) and propose some solutions to the identified challenges. Also include questions on matters that you are unsure/unclear about that requires feedback from peers, users, or additional research.  
 Technical challenges like social feature-scalability may be difficult to integrate; ensuring the app can handle a growing user base means incorporating social media to engage younger audiences. Additionally, keeping users engaged in the long term may be difficult in a crowded gaming market; regularly introducing new features and updates may keep the game engaging over time. Storage of the own users’ scores may not need cloud storage but may pose an issue over time.  
+To combat this, users' high scores may also just be kept locally and reset when requested to be manually cleared out.
+
 In general, Numbly could focus on expanding its types of puzzles (i.e., provide a digit range for the number of the day), or keep the gameplay more consistent with a five-digit number every day. Maybe premium features allow for the adjustment of these settings, and the free basic version offers the simple interface expected every day.
+The scope of this project may pose challenges in development, but focusing on the main value, ease-of-use, may guide the game toward simplicity.
 
 ## Works Cited  
 
